@@ -1,0 +1,7 @@
+#Diagrama de violin
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots()
+ax.violinplot([1, 2, 1, 2, 3, 4, 3, 3, 5, 7])
+
+plt.show()
